@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import Sidebar from './components/SideBar';
-import Home from './components/Home';
-import Project from './components/Project';
-import About from './components/About';
-import Contact from './components/Contact';
-import Skill from './components/Skill';
-import ProjectDetail from './components/ProjectDetail';
+import Sidebar from './components/SideBar.jsx';
+import Home from './components/Home.jsx';
+import Project from './components/Project.jsx';
+import About from './components/About.jsx';
+import Contact from './components/Contact.jsx';
+import Skill from './components/Skill.jsx';
+import ProjectDetail from './components/ProjectDetail.jsx';
 import './App.css';
 
 const App = () => {

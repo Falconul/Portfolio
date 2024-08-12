@@ -1,9 +1,9 @@
 // src/components/Home.jsx
 import React from 'react';
-import About from './About'; // About bileşenini import ediyoruz
-import Skill from './Skill';
-import Project from './Project';
-import Contact from './Contact';
+import About from './About.jsx'; 
+import Skill from './Skill.jsx';
+import Project from './Project.jsx';
+import Contact from './Contact.jsx';
 
 const Home = () => {
   return (
