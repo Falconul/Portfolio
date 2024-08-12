@@ -1,0 +1,52 @@
+/* App.css */
+
+.app {
+  display: flex;
+}
+
+
+.content {
+  margin-left: 20%; /* Sidebar genişliği kadar margin-left */
+  padding: 20px;
+  width: 80%; /* İçerik alanının genişliği */
+  min-height: 100vh; /* İçeriğin en az ekran yüksekliği kadar olması */
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  padding: 10px 20px;
+}
+
+a:hover {
+  background-color: #444;
+}
